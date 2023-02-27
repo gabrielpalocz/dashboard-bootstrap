@@ -18,7 +18,7 @@ const LoginCopy = () => {
             alert(c);
             navigate("/dashboard/default");
         }
-    }, [credentials]);
+    }, [credentials, navigate]);
 
     return (
         <Card>
