@@ -45,7 +45,7 @@ const SideBarLink = (props) => {
                 }
             >
                 <div className='d-flex justify-content-start ms-1' key={`divl--${props.keyIt}`} >
-                    <props.items.icon key={`icon--${props.keyIt}`} />&nbsp;<span key={`span--${props.keyIt}`}>{props.items.title}</span>
+                    <props.items.icon key={`icon--${props.keyIt}`} />&nbsp;<span className='text-start' key={`span--${props.keyIt}`}>{props.items.title}</span>
                 </div>
             </NavLink>
         </div>
