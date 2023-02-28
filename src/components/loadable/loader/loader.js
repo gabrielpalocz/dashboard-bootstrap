@@ -1,6 +1,12 @@
 import React from 'react'
 import useWindowDimensions from '../../../utils/hook/screenSize';
 
+
+/**
+ * 
+ * @returns The loader for when the page is loading
+ */
+
 const Loader = () => {
     const { height } = useWindowDimensions()
 

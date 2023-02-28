@@ -14,6 +14,10 @@ const ForgotPass = Loadable(lazy(() => import('../components/authentication/view
 
 // ------------------------------[ AUTHENTICATION ROUTING ]------------------------------- //
 
+/**
+ * This is the authencation routing 
+ */
+
 const AuthenticationRoutes = {
     path: '/',
     element: <AuthLayout />,

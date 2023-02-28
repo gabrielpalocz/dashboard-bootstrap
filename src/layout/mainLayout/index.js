@@ -7,6 +7,11 @@ import Offcanvas from './ui-components/offcanvas';
 
 // -------------------------------[ MAIN LAYOUT ]------------------------------- //
 
+/**
+ * 
+ * @returns the main layout view 
+ */ 
+
 const MainLayout = () => {
     const { height } = useWindowDimensions()
 

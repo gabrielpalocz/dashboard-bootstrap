@@ -7,7 +7,12 @@ const icons = {
     IconMap2,
 };
 
+
 // ----------------------------------[ MAPS MENU ITEMS ]------------------------------- //
+
+/**
+ * Maps group and items
+ */
 
 const maps = {
     id: 'maps',
@@ -18,7 +23,7 @@ const maps = {
             id: 'MapOne',
             title: 'Map One',
             type: 'item',
-            url: '/maps/Mapone',
+            url: '/maps/mapone',
             icon: icons.IconMap,
             breadcrumbs: false
         },

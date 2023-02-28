@@ -1,6 +1,11 @@
 import React from 'react'
 import { IconBell } from '@tabler/icons';
 
+/**
+ * 
+ * @returns The alerts section of the header
+ */
+
 const AlertSection = () => {
     return (
         <div className="dropdown">

@@ -7,6 +7,11 @@ import { RiLoginCircleLine } from 'react-icons/ri';
 
 // -------------------------------[ LOGIN VIEW ]------------------------------- //
 
+/**
+ * 
+ * @returns Login view
+ */
+
 const LoginCopy = () => {
     const [credentials, setCreadentials] = useState(null);
     const navigate = useNavigate();

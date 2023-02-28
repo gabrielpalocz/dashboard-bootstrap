@@ -3,6 +3,10 @@ import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import { strengthColor, strengthIndicator } from '../utils/passwordStrength';
 
+/**
+ * This is the Registration Form Schema 
+ */
+
 const RegisterFormSchema = Yup.object().shape({
     firstName: Yup.string()
         .min(3, 'Too Short!')
@@ -21,6 +25,12 @@ const RegisterFormSchema = Yup.object().shape({
         .required('is required'),
     termCondCheck: Yup.boolean().oneOf([true], 'is required.'),
 });
+
+/**
+ * Registration Form with inputs validator
+ * @param {*} onSubmit - Form data 
+ * @returns {Object} - {firstName: string, lastName: string, email: string, password: string, termCondCheck: Boolean}
+ */
 
 export const RegisterValidationSchema = ({ onSubmit }) => {
     const [strength, setStrength] = useState(0);

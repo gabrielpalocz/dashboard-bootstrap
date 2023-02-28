@@ -1,9 +1,15 @@
 import React from 'react'
 
-function claimsMap() {
+
+/**
+ * 
+ * @returns Map one view
+ */
+
+function mapOne() {
   return (
     <div>Map One</div>
   )
 }
 
-export default claimsMap
+export default mapOne

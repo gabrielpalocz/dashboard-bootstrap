@@ -1,7 +1,13 @@
 import { Outlet } from 'react-router-dom';
 import useWindowDimensions from '../../utils/hook/screenSize';
 
+
 // -------------------------------[ AUTH LAYOUT ]------------------------------- //
+
+/**
+ * 
+ * @returns the authentication layout view 
+ */ 
 
 const AuthLayout = () => {
     const { height } = useWindowDimensions()

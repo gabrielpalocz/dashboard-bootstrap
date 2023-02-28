@@ -8,6 +8,11 @@ import { Modal } from '../ui-components/modal'
 
 // -------------------------------[ REGISTER VIEW ]------------------------------- //
 
+/**
+ * 
+ * @returns Register view
+ */
+
 const Register = () => {
     const [credentialsReg, setCredentialsReg] = useState(null);
 

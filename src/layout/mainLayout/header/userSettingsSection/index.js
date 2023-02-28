@@ -1,6 +1,11 @@
 import React from 'react'
 import { IconUserCircle, IconSettings, IconLogout, IconMoon } from '@tabler/icons';
 
+/**
+ * 
+ * @returns The users section of the header
+ */
+
 const UserSettings = () => {
     return (
         <div className="dropdown" >

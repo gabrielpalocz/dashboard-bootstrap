@@ -1,8 +1,14 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 
-const SideBarLink = ( props ) => {
-     // This styling will be applied to a <NavLink> when the
+/**
+ * 
+ * @param {*} props - from sideBarButtons
+ * @returns all the links for the routing of the pages
+ */
+
+const SideBarLink = (props) => {
+    // This styling will be applied to a <NavLink> when the
     // route that it links to is currently selected.
     let activeStyle = {
         textDecoration: "none",
@@ -26,21 +32,23 @@ const SideBarLink = ( props ) => {
     let nonActiveClassName = "btn btn-bd-primary d-grid border-0 rounded-3 pt-2 my-2 ms-1";
 
     return (
-        <NavLink
-            key={`link--${props.keyIt}`}
-            className={({ isActive }) =>
-                isActive ? activeClassName : nonActiveClassName
-            }
-            to={props.items.url}
+        <div data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar" >
+            <NavLink
+                key={`link--${props.keyIt}`}
+                className={({ isActive }) =>
+                    isActive ? activeClassName : nonActiveClassName
+                }
+                to={props.items.url}
 
-            style={({ isActive }) =>
-                isActive ? activeStyle : nonActiveStyle
-            }
-        >
-            <div className='d-flex justify-content-start ms-1' data-bs-dismiss="offcanvas" data-bs-target="#offcanvasNavbar" key={`divl--${props.keyIt}`}>
-                <props.items.icon key={`icon--${props.keyIt}`} />&nbsp;<span key={`span--${props.keyIt}`}>{props.items.title}</span>
-            </div>
-        </NavLink>
+                style={({ isActive }) =>
+                    isActive ? activeStyle : nonActiveStyle
+                }
+            >
+                <div className='d-flex justify-content-start ms-1' key={`divl--${props.keyIt}`} >
+                    <props.items.icon key={`icon--${props.keyIt}`} />&nbsp;<span key={`span--${props.keyIt}`}>{props.items.title}</span>
+                </div>
+            </NavLink>
+        </div>
     )
 }
 

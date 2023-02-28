@@ -13,6 +13,10 @@ const MapTwo = Loadable(lazy(() => import('../components/main/views/mapTwo')));
 
 // ------------------------------[ MAIN ROUTING ]------------------------------- //
 
+/**
+ * This is the main routing 
+ */
+
 const MainRoutes = {
     path: '/',
     element: <MainLayout />,

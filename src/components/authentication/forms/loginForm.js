@@ -3,6 +3,10 @@ import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import { Link } from "react-router-dom";
 
+/**
+ * This is the Login Form Schema to control the user inputs
+ */
+
 const LoginFormSchema = Yup.object().shape({
     email: Yup.string().email('Invalid').required('is required'),
     password: Yup.string()
@@ -10,6 +14,12 @@ const LoginFormSchema = Yup.object().shape({
         .max(50, 'Too Long!')
         .required('is required'),
 });
+
+/**
+ * Login Form with inputs validator
+ * @param {*} onSubmit - Form data
+ * @returns {Object} - {email: string, password: string, loginCheck: Boolean}
+ */
 
 export const LoginValidationSchema = ({ onSubmit }) => {
 

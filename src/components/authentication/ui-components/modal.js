@@ -1,5 +1,12 @@
 import React from 'react'
 
+
+/**
+ * 
+ * @param {*} props - from the view
+ * @returns The modal used to show the terms and conditions text
+ */
+
 export const Modal = (props) => {
 
     return (

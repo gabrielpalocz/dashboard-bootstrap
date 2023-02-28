@@ -2,6 +2,11 @@ import React from 'react'
 import useWindowDimensions from '../../../utils/hook/screenSize';
 import { SideBarButtons } from './sideBarButtons/sideBarButtons';
 
+/**
+ * 
+ * @returns sidebar section to the main layout 
+ */
+
 const Sidebar = () => {
     const { height } = useWindowDimensions()
 

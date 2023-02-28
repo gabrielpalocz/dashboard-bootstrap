@@ -2,6 +2,10 @@ import React from 'react'
 import { SideBarButtons } from '../sidebar/sideBarButtons/sideBarButtons'
 import { BiWorld } from 'react-icons/bi';
 
+/**
+ * 
+ * @returns offcanvas used like sidebar when the screen size is md 
+ */
 
 const Offcanvas = () => {
 

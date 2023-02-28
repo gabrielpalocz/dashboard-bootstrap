@@ -13,6 +13,10 @@ const icons = {
 
 // ----------------------------------[ PAGES MENU ITEMS ]------------------------------- //
 
+/**
+ * Pages group and items
+ */
+
 const pages = {
     id: 'pages',
     title: 'Pages',

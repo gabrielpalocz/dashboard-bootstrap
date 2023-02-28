@@ -3,6 +3,14 @@ import sideBarItems from '../sideBarItems/index'
 import SideBarLink from './sideBarLinks';
 import SideBarCollapse from './sideBarCollapse';
 
+
+// ----------------------------------[ SIDEBAR MENU BUTTONS ]------------------------------- //
+
+/**
+ * 
+ * @returns the sidebar menu buttons  
+ */
+
 export const SideBarButtons = () => {
 
     return (

@@ -5,6 +5,11 @@ import useWindowDimensions from '../../../utils/hook/screenSize';
 import { BiWorld } from 'react-icons/bi';
 import { IconMenu2 } from '@tabler/icons';
 
+/**
+ * 
+ * @returns header section to the main layout
+ */
+
 const Header = () => {
     const { width } = useWindowDimensions();
     const [open, setOpen] = useState(true);

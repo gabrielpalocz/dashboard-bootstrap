@@ -28,6 +28,13 @@ import { IconChevronDown, IconChevronUp  } from '@tabler/icons';
     };
     let nonActiveClassName = "btn btn-bd-primary d-grid border-0 rounded-3 pt-2 my-2 ms-1";
 
+
+/**
+ * 
+ * @param {*} props - from sideBarButtons
+ * @returns collapse button with all the links for the routing of the pages
+ */
+
 const SideBarCollapse = (props) => {
     const [open, setOpen] = useState(false);
     const [styleSelector, setStyleSelector] = useState( nonActiveStyle );
