@@ -9,7 +9,7 @@ import { IconUserCircle, IconSettings, IconLogout, IconMoon } from '@tabler/icon
 const UserSettings = () => {
     return (
         <div className="dropdown" >
-            <button className="btn btn-outline-primary btn-sm  border-0 rounded-4 me-4" type="button" data-bs-toggle="dropdown" title="Configuraciones" aria-expanded="false" style={{ '--bs-btn-bg': '#eef2f6' }}>
+            <button className="btn btn-outline-primary btn-sm border-0 rounded-4 me-4" data-bs-auto-close="outside" type="button" data-bs-toggle="dropdown" title="settings" aria-expanded="false" style={{ '--bs-btn-bg': '#eef2f6' }}>
                 <div className='p-1' >
                     <IconUserCircle />&nbsp;&nbsp;<IconSettings />
                 </div>

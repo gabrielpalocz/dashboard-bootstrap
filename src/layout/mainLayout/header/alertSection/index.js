@@ -9,7 +9,7 @@ import { IconBell } from '@tabler/icons';
 const AlertSection = () => {
     return (
         <div className="dropdown">
-            <button className="btn btn-outline-primary btn-sm border-0 rounded-3 me-4 mt-1" type="button" data-bs-toggle="dropdown" title="Alertas" aria-expanded="false" style={{ '--bs-btn-bg': '#eef2f6' }}>
+            <button className="btn btn-outline-primary btn-sm border-0 rounded-3 me-4 mt-1" data-bs-auto-close="outside" type="button" data-bs-toggle="dropdown" title="Alertas" aria-expanded="false" style={{ '--bs-btn-bg': '#eef2f6' }}>
                 <IconBell />
             </button>
             <ul className="dropdown-menu shadow rounded-4 mt-2">
