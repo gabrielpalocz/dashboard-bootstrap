@@ -9,11 +9,8 @@ This project was created with:
 [React-Router-Dom](https://github.com/remix-run/react-router).
 [React-Icons](https://github.com/react-icons/react-icons).
 
-This is what the login view looks like:
-
-
-And this is how it looks when it controls the filling of the form:
-
+This is what the dashboard view looks like:
+![dashboard](https://user-images.githubusercontent.com/121043838/221661670-7cf2ae04-1c96-45d4-a3bd-2c3127db9d26.png)
 
 ## Available Scripts
 
