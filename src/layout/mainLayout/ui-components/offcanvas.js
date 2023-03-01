@@ -19,8 +19,8 @@ const Offcanvas = () => {
                     </div>
                 </span>
             </div>
-            <div className="offcanvas-body" style={{marginTop: '0.7rem'}}>
-                <nav className="d-grid gap-2 ms-1 me-2">
+            <div className="offcanvas-body" style={{ marginTop: '0.1rem' }}>
+                <nav className="d-grid gap-2 ms-1" style={{ maxWidth:'13.2rem', marginTop: '0.6rem' }}>
                     <SideBarButtons />
                 </nav>
             </div>

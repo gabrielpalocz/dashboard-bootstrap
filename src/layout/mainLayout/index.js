@@ -19,12 +19,12 @@ const MainLayout = () => {
         <>
             <div style={{ minWidth: '15rem' }}>
                 <Header />
-                <div className="container-fluid px-4 " style={{ minHeight: `calc(${height}px - 5.2rem)` }}>
-                    <div className="row flex-nowrap px-2 ">
+                <div className="container-fluid px-4" style={{ minHeight: `calc(${height}px - 5.2rem)` }}>
+                    <div className="row flex-nowrap px-2">
                         <div className="col-auto px-0 d-none d-md-block">
                             <Sidebar />
                         </div>
-                        <main className="col p-4 rounded-4 " style={{ backgroundColor: '#eef2f6', minHeight: `calc(${height}px - 6.4rem)` }}>
+                        <main className="col p-4 rounded-4" style={{ backgroundColor: '#eef2f6', minHeight: `calc(${height}px - 6.4rem)` }}>
                             <Outlet />
                         </main>
                     </div>

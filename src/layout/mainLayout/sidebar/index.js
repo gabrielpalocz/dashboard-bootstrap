@@ -12,9 +12,9 @@ const Sidebar = () => {
 
     return (
         <>
-            <div id="sidebar" className="collapse collapse-horizontal show border-none sticky-top" style={{top:"5.2rem"}}> 
+            <div id="sidebar" className="collapse collapse-horizontal show border-none sticky-top" style={{ top:"5.2rem" }}> 
                 <div id="sidebar-nav" className="border-0 rounded-0 text-sm-start overflow-auto" style={{ minWidth: '14.7rem', maxWidth: '14.7rem', minHeight: `calc(${height}px - 6.4rem)`, maxHeight: `calc(${height}px - 6.4rem)` }}>
-                    <nav className="d-grid gap-2 pt-4 pe-4">
+                    <nav className="d-grid gap-2 pt-4 pe-3" style={{ maxWidth:'14.2rem' }}>
                         <SideBarButtons />
                     </nav>
                 </div>
