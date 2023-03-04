@@ -12,6 +12,8 @@ This project was created with:
 This is what the dashboard view looks like:
 ![dashboard](https://user-images.githubusercontent.com/121043838/221661670-7cf2ae04-1c96-45d4-a3bd-2c3127db9d26.png)
 
+### `The sidebar collapses its content` 
+
 ## Available Scripts
 
 In the project directory, you can run:
