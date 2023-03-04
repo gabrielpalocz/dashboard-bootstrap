@@ -26,7 +26,7 @@ const Header = () => {
                         <BiWorld className='d-none d-md-block' style={{ 'fontSize': '2.8rem' }} />
                         <span className='ms-2 d-none d-md-block' style={{ 'fontSize': '1.8rem' }}><strong>COMPANY</strong></span>
                         <div className={width >= 768 ? 'ms-5' : 'ms-2'} >
-                            <button className="btn btn-outline-primary btn-sm border-0 rounded-3 mt-1" id='butons' type="button" onClick={handleClick} data-bs-target={width >= 768 ? "#sidebar" : "#offcanvasNavbar"} data-bs-toggle={width >= 768 ? "collapse" : "offcanvas"} style={{ '--bs-btn-bg': '#eef2f6' }}>
+                            <button className="btn btn-outline-primary btn-sm border-0 rounded-3 mt-1" id='butons' type="button" onClick={width >= 768 ? handleClick : null} data-bs-target={width >= 768 ? "#sidebar" : "#offcanvasNavbar"} data-bs-toggle={width >= 768 ? "collapse" : "offcanvas"} style={{ '--bs-btn-bg': '#eef2f6' }}>
                                 <IconMenu2 />
                             </button>
                         </div>
