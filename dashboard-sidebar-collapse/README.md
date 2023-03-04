@@ -14,6 +14,7 @@ This is what the dashboard view looks like:
 
 ### `The sidebar collapses its content` 
 
+
 ## Available Scripts
 
 In the project directory, you can run:
