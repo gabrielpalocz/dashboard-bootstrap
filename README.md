@@ -1,2 +1,2 @@
 # dashboard-bootstrap
-in this repository there are examples of dashboards
+In this repository there are examples of dashboards
