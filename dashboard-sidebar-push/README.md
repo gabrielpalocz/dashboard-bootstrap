@@ -8,6 +8,8 @@ This project was created with:
 [Yup](https://github.com/jquense/yup).
 [React-Router-Dom](https://github.com/remix-run/react-router).
 [React-Icons](https://github.com/react-icons/react-icons).
+[React-Redux](https://github.com/reduxjs/react-redux).
+[Redux-toolkit](https://github.com/reduxjs/redux-toolkit).
 
 This is what the dashboard view looks like:
 ![dashboard](https://user-images.githubusercontent.com/121043838/221661670-7cf2ae04-1c96-45d4-a3bd-2c3127db9d26.png)
