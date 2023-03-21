@@ -5,13 +5,18 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
- //basename={`${process.env.PUBLIC_URL}`}
+import { Provider } from 'react-redux'
+import store from './store/store'
+
+//basename={`${process.env.PUBLIC_URL}`}
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={'app'}>
-      <App />
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter basename={'app'}>
+        <App className='App' />
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>
 );
 
